@@ -1,0 +1,23 @@
+{
+  "sample_rate": 16000,
+  "n_fft": 320,
+  "hop_length": 160,
+  "n_mfcc": 40,
+  "n_mels": 128,
+  "n_chroma": 12,
+  "seq_len": 50,
+  "batch_size": 64,
+  "epochs": 150,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "patience": 20,
+  "min_delta": 0.0001,
+  "label_smoothing": 0.1,
+  "d_model": 128,
+  "nhead": 8,
+  "num_layers": 4,
+  "dim_feedforward": 512,
+  "dropout": 0.3,
+  "data_dir": "./audio_speech_actors_01-24",
+  "save_dir": "./content/ser_model"
+}
